@@ -1,16 +1,60 @@
-# basic_app
+# Basic App
 
-A new Flutter project.
+A simple Flutter mobile app with buttons linking to a GitHub repository and HNG website.
 
-## Getting Started
+## 📌 Features
+- Open a **GitHub repository** link.
+- Visit the **HNG website**.
 
-This project is a starting point for a Flutter application.
+## 🔗 Links
+- **GitHub Repository:** [GitHub Repo](https://github.com/khachy/basic-app)
+- **HNG Website:** [HNG Hire Flutter Developer](https://hng.tech/hire/flutter-developers)
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📥 Installation Guide
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Follow these steps to set up and run the **Basic App**.
+
+### **1️⃣ Pre-Requisites**
+Ensure you have the following installed:
+
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)  
+- Dart SDK (comes with Flutter)  
+- Android Studio/Xcode (for emulators/simulators)  
+- Git (for cloning the repository)  
+
+To verify your setup, run:
+```bash
+flutter doctor
+```
+
+### **2️⃣ Clone the Repository**
+Open a terminal and run:
+```bash
+git clone https://github.com/your-username/flutter-link-app.git
+cd flutter-link-app
+```
+
+### **3️⃣ Get Dependencies**
+Since we are not using external dependencies, we just need to ensure Flutter recognizes all files:
+```bash
+flutter pub get
+```
+
+### **4️⃣ Run the App**
+📱 Android Emulator / Physical Device
+- Ensure an emulator is running (or connect a physical device via USB).
+- Run the app with:
+```bash
+flutter run
+```
+🍏 iOS Simulator / Physical Device (Mac Only)
+- Ensure Xcode is installed:
+```bash
+xcode-select --install
+```
+- Run the app on an iOS simulator:
+```bash
+flutter run
+```
